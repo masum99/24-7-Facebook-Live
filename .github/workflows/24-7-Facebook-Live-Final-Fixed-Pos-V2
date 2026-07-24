@@ -1,8 +1,8 @@
 name: 24-7-Facebook-Live-Final-Fixed-Pos-V2
 on:
   workflow_dispatch:
-#  schedule:
-@    - cron: '0 */5 * * *'
+  schedule:
+    - cron: '0 */5 * * *'
 
 concurrency:
   group: facebook-live-final
